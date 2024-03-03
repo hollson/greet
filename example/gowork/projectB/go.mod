@@ -1,3 +1,3 @@
-module git.example.com/projectB
+module git.example.com/user/projectB
 
 go 1.22.0

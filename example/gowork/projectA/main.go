@@ -1,11 +1,13 @@
 package main
 
 import (
-	"git.example.com/projectB/handler"
-	"github.com/hollson/greet"
+	"example/projectC"              // 伪Path
+	"git.example.com/user/projectB" // 伪URL(需要在go.mod添加requre项和热repleace配置)
+	"github.com/hollson/greet"      // Github项目
 )
 
 func main() {
-	handler.Hello()
 	greet.Hello()
+	projectB.Hello()
+	projectC.Hello()
 }
